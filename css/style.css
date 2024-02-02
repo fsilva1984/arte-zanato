@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+* {
+
+    font-family: "Fira Sans Condensed", sans-serif;
+}
+
+.clear {
+    background-color: #161616;
+}
+
+.close {
+    background-color: #4a4d4e;
+}
+
+#hd {
+    background-color: #161616;
+    color: aliceblue;
+}
+
+
+img {
+    width: 99%;
+    padding: 1px;
+}
+
+
+
+.facebook {
+    cursor: pointer;
+    font-size: 2rem;
+    margin: 5px;
+    color: #008cff;
+}
+
+.instagram {
+    cursor: pointer;
+    font-size: 2rem;
+    margin: 5px;
+    color: #f100c7;
+}
+
+.whatsapp {
+    cursor: pointer;
+    font-size: 2rem;
+    margin: 5px;
+    color: #04aa6d;
+
+}
+
+footer {
+    background-color: #161616;
+}
+
+footer p {
+    color: aliceblue;
+}
+
+
+@media(max-width: 600px) {
+    img {
+        width: 100%;
+    }
+
+}

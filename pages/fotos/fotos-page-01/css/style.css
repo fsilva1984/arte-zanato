@@ -1,0 +1,38 @@
+* {
+    color: aliceblue;
+}
+
+.myheader {
+    background-color: #6f27ea;
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 500px;
+    background: linear-gradient(217deg, #fc00d9, rgba(255, 0, 0, 0) 70.71%),
+        linear-gradient(127deg, #ef7c2e, rgba(0, 255, 0, 0) 70.71%),
+        linear-gradient(336deg, #6f27ea, rgba(0, 0, 255, 0) 70.71%);
+
+}
+
+
+
+.footer {
+    background-color: rgb(11, 12, 12);
+    padding: 15px;
+}
+
+.facebook {
+    color: rgb(17, 100, 253);
+}
+
+.instagram {
+    color: #fc00d9;
+}
+
+.whatsapp {
+    color: green;
+}

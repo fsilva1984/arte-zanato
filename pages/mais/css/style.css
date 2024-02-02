@@ -1,0 +1,113 @@
+* {
+    color: aliceblue;
+}
+.myheader {
+    background-color: #6f27ea;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.description {
+    max-width: 1000px;
+    text-align: justify;
+}
+
+.section-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box-pig {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+    width: 85%;
+}
+
+.img-pig {
+    width: 155px;
+    margin: 2px;
+}
+
+.info-pig {
+    width: 55%;
+}
+
+
+.box-horse {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+    width: 85%;
+}
+
+.img-horse {
+    width: 155px;
+    margin: 2px;
+}
+
+.info-horse {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 55%;
+    margin: 2px;
+    padding: 5px;
+}
+
+
+.footer {
+    background-color: rgb(11, 12, 12);
+    margin-top: 20px;
+    padding: 15px;
+}
+.facebook {
+    color: rgb(17, 100, 253);
+}
+.instagram {
+    color: #fc00d9;
+}
+.whatsapp {
+    color: green;
+}
+
+
+
+
+@media (max-width: 600px) {
+    .box-pig {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .img-pig {
+        width: 70%;
+    }
+
+    .info-pig {
+        width: auto;
+    }
+
+
+    .box-horse {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .img-horse {
+        width: 70%;
+    }
+
+    .info-horse {
+        width: auto;
+    }
+}
