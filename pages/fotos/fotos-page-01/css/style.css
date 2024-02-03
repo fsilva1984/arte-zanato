@@ -36,3 +36,14 @@ main {
 .whatsapp {
     color: green;
 }
+
+
+
+
+@media (max-width: 600px) {
+
+    .myheader a {
+        font-size: 2rem;
+        padding: 8px;
+    }
+}
