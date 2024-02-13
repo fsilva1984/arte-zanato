@@ -1,67 +1,96 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@87.5,200..900&display=swap');
 * {
-
-    font-family: "Fira Sans Condensed", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-family: "Inconsolata", monospace;
+    font-variation-settings: "wdth" 87.5;
 }
+header {
+    background-color: #161616;
+    color: aliceblue;
+}
+.title-h1 {
+    font-size: 4rem;
+}
+.title-p {
+    font-size: 1.2rem;
+}
+
+/* Grid Update new layout*/
+.grid-main {
+    width: 100%;
+    display: grid;
+    margin-top: 5px;
+    justify-items: center;
+}
+.grid-container {
+    gap: 3px;
+    width: 1336px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.macarron {
+    display: none;
+}
+img {
+    width: 100%;
+}
+@media(max-width: 1100px) {
+    .grid-container {
+        width: 98%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .item-final {
+        display: none;
+    }
+    .macarron {
+        display: grid;
+    }
+}
+@media(max-width: 600px) {
+    .grid-container {
+        width: 98%;
+        grid-template-columns: 1fr;
+    }
+
+    .item-final {
+        display: grid;
+    }
+}/* Final grid*/
 
 .clear {
     background-color: #161616;
 }
-
 .close {
     background-color: #4a4d4e;
 }
-
-#hd {
-    background-color: #161616;
-    color: aliceblue;
-}
-
-
-img {
-    width: 99%;
-    padding: 1px;
-}
-
-
-
 .facebook {
     cursor: pointer;
     font-size: 2rem;
     margin: 5px;
     color: #008cff;
 }
-
 .instagram {
     cursor: pointer;
     font-size: 2rem;
     margin: 5px;
     color: #f100c7;
 }
-
 .whatsapp {
     cursor: pointer;
     font-size: 2rem;
     margin: 5px;
     color: #04aa6d;
-
 }
-
 footer {
+    margin-top: 5px;
     background-color: #161616;
 }
-
 footer p {
     color: aliceblue;
 }
-
-
 @media(max-width: 600px) {
     img {
         width: 100%;
     }
-
 }
