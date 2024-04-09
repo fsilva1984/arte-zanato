@@ -28,7 +28,7 @@ body {
 .grid-container {
     display: grid;
     margin-top: 8px;
-    
+
     grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -59,6 +59,15 @@ img {
 }
 
 
+@media (max-width: 800px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #incognit {
+        display: none;
+    }
+  
+}
 
 
 @media (max-width: 600px) {
@@ -67,6 +76,7 @@ img {
         font-size: 2rem;
         padding: 8px;
     }
+
     .grid-container {
         display: block;
         padding: 5px;
